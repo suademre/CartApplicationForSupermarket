@@ -1,0 +1,67 @@
+@import "reset.css";
+
+.container{
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      width: 100vw;
+      height: 100vh;
+      padding: 0 20px;
+      justify-content: space-around
+}
+.cart-container{
+      height: 90%;
+      overflow: auto;
+      width: 100%;
+}
+.cart{
+      display: flex;
+      justify-content: space-around;
+      height: 10%;
+      align-items: center;
+      border: 1px solid #000;
+      margin-bottom: 12px;
+      padding: 0 8px;
+      box-sizing: border-box;
+      border-radius: 4px;
+}
+.cart p{
+      width: 150px;
+}
+.cart-name{
+      flex: 1;
+}
+.footer{
+      height: 10%;
+      width: 100%;
+      background-color: #eee;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding:  0 20px;
+      box-sizing: border-box;
+}
+.quantityArea{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+}
+.quantityArea p {
+     width: auto;
+     margin: 0 4px;
+}
+.quantityArea button{
+      width: auto;
+    padding: 4px; 
+}
+.deletebutton{
+      width: 40px;
+      padding:2px 0 !important;
+      border-color: red;
+      color: red;
+      margin: 0;
+
+
+}
